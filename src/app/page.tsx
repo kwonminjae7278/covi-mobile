@@ -101,7 +101,7 @@ export default function Home() {
   };
 
   return (
-    <main className="h-svh bg-white w-full max-w-[430px] mx-auto flex flex-col p-0 sm:p-4 overflow-hidden">
+    <main className="h-svh bg-white w-full max-w-[430px] sm:max-w-[100vw] mx-auto flex flex-col p-0 sm:p-4 overflow-x-hidden">
       <div className="px-4 pt-4">
         <Header />
       </div>

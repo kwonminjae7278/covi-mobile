@@ -1,9 +1,16 @@
-import React from 'react';
+import Image from 'next/image';
 
 export const Header = () => {
   return (
-    <header className="p-6 flex items-center">
-      <h1 className="text-4xl font-black italic tracking-tighter text-slate-700">COVI</h1>
+    <header className="flex items-center justify-start py-4">
+      <Image
+        src="/covi_logo.png"
+        alt="COVI Logo"
+        width={100}
+        height={32}
+        className="h-8 w-auto object-contain"
+        priority
+      />
     </header>
   );
 };
