@@ -91,7 +91,7 @@ export async function POST(req: Request) {
                         scale: 0.65,
                     }
                 ],
-            },
+            } as any,
             logs: true,
             onQueueUpdate: (update) => {
                 console.log("Queue update:", update);
